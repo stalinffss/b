@@ -1,0 +1,29 @@
+body,h1
+{
+  text-align: center;
+  /*color: red;*/
+  position: relative;
+}
+
+#product-list
+{
+      width: 467px;
+    height: 165px;
+    /*outline: 1px solid red;*/
+    position: absolute;
+    margin-left: 414px
+}
+#prdtable
+{
+      position: absolute;
+    margin-left: 141px
+}
+#prdtable,ed
+{
+
+}
+#prdtable,del
+{
+  position: absolute;
+    margin-left: 81px;
+}

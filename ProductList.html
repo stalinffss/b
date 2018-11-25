@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/login.css">
+    </link>
+</head>
+
+<body>
+    <div id="validation-message" style="color: red;"></div>
+    <table id="prdtable">
+        <tr>
+            <td style="display: none;">Product Id:
+            <td>
+                <input type="text" name="productid" id="numproductid" style="display: none;"></input>
+            </td>
+            </td>
+        </tr>
+        <tr>
+            <td>Product Name:
+            <td>
+                <input type="text" name="productname" id="txtproductname"></input>
+            </td>
+            </td>
+        </tr>
+        <tr>
+            <td>Product Cost:
+            <td>
+                <input type="text" name="productcost" id="txtproductcost" style="
+        margin-left: -83px;
+    position: absolute;
+    margin-top: -9px;"></input>
+            </td>
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none;">Product Count:
+            <td>
+                <input type="text" name="productcount" id="numproductcount" style="
+        margin-left: 52px;
+    position: absolute;
+    margin-top: -71px; display: none;"></input>
+            </td>
+            </td>
+        </tr>
+    </table>
+     <input type="button" id="btnProductsave" value="Add Product" style="    
+       width: 92px;
+       margin-left: 108px;
+    margin-top: -4px;
+    position: absolute;" />
+    
+     <input type="button" id="btnProductupdate" value="Update"  style="width: 92px;
+    margin-left:103px;
+    margin-top: -4px;
+    position: absolute; display: none;" />
+
+    <br>
+    <input type="button" name="logout" id="btnlogout" value="Logout" style="    position: absolute;
+    margin-left: 568px;
+    margin-top: -68px;">
+    <div id="dvcontainer" style="margin-top: 40px;margin-top: 23px;
+    margin-left: 103px;">
+    </div>
+    <script src="js/ProductList.js"></script>
+</body>
+
+</html>
